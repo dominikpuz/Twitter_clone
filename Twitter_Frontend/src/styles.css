@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  min-height: 100vh;
+  background-color: black;
+  font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

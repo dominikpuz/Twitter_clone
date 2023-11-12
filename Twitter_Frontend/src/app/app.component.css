@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+app-left-sidebar {
+  width: 15%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+:host ::ng-deep router-outlet + * {
+  width: 50%;
+  border: 1px white solid;
+  min-height: 100vh;
+}
+
+@media (max-width: 1450px) {
+  app-left-sidebar {
+    width: 18%;
+  }
+
+  :host ::ng-deep router-outlet + * {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1350px) {
+  app-left-sidebar {
+    width: 22%;
+  }
+
+  :host ::ng-deep router-outlet + * {
+    width: 73%;
+  }
+}

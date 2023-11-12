@@ -1,0 +1,98 @@
+.container {
+  margin: 10px;
+}
+
+.tweet-button {
+  width: 90%;
+  height: 50px;
+  border-radius: 30px;
+  color: white !important;
+  font-weight: bold;
+  font-size: larger;
+}
+.options {
+  font-size: 20px;
+  /*font-weight: 700; if selected*/
+}
+
+.options a {
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.options div {
+  border-radius: 25px;
+  width: fit-content;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 15px 0 15px 0;
+}
+
+.options a div:hover {
+  background-color: rgba(198, 198, 198, 0.15);
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(198, 198, 198, 0.15);
+  -moz-box-shadow: 0px 0px 0px 5px rgba(198, 198, 198, 0.15);
+  box-shadow: 0px 0px 0px 5px rgba(198, 198, 198, 0.15);
+}
+
+mat-icon {
+  margin-right: 10px;
+}
+.logo {
+  margin-top:25px;
+  margin-bottom:25px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.logo:hover {
+  -webkit-box-shadow: 0px 0px 0px 15px rgba(198, 198, 198, 0.15);
+  -moz-box-shadow: 0px 0px 0px 15px rgba(198, 198, 198, 0.15);
+  box-shadow: 0px 0px 0px 15px rgba(198, 198, 198, 0.15);
+}
+
+.profile {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.profile picture {
+  width: 50px;
+  height: 50px;
+}
+
+.profile picture img {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+
+.profile div {
+  width: 55%;
+}
+
+.profile div p {
+  margin: 0;
+}
+
+.display-name {
+  font-weight: bold;
+}
+
+.user-name {
+  color: rgb(113, 118, 123);
+}
+
